@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json({limit:'50mb'}));
 
 app.get('/', async(req, res) =>{
-    res.send('Hello from the server!');
+    res.send('Hello from the the server!');
 })
 
 const startserver = async()=>{
