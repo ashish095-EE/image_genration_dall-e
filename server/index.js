@@ -20,7 +20,7 @@ const startserver = async()=>{
 
     try {
         connectDb(process.env.MONGODB_URL);
-        app.listen(5000,()=> console.log('server live on port 5000 at http://localhost:5000'))
+        app.listen(5000,()=> console.log('server live on port at http://localhost:5000'))
     } catch (error) {
         console.error(error);
         
